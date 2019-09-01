@@ -1,3 +1,26 @@
-## 说明
-对input.txt文件中的文本进行词频统计，并将数据倒序排列输出到文件result.txt中
+# WordFrequency
+
+
+WordFrequency is a library for word frequency statistics.
+
+It support for both Chinese and English.
+
+
+
+
+## Requirements
+
+### Build Requirements
+- yanyiwu/gojieba (for decomposition of words) 
+
+
+## Usage
+
+```go
+
+import "github.com/fredgan/WordFrequency"
+
+wordfrequency.WordFrequency(inputFileName, outputFileName, minRuneLen)
+
+```
 
