@@ -3,16 +3,13 @@
 
 WordFrequency is a library for word frequency statistics.
 
-It support for both Chinese and English.
-
-
+It supports both for Chinese and English.
 
 
 ## Requirements
 
 ### Build Requirements
 - yanyiwu/gojieba (for decomposition of words) 
-
 
 ## Usage
 
